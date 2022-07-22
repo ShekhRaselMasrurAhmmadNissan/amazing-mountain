@@ -1,0 +1,35 @@
+/* Importing Fonts from Google Fonts Website */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;900&display=swap');
+/* Importing Google Font Done */
+
+
+/* Global Style Start */
+body {
+	background-color: gray;
+}
+/* Global Style End */
+
+
+/* Header Section Style Start */
+.header {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav {
+	display: flex;
+
+}
+.nav__list {
+	display: flex;
+	list-style: none;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav__link {
+	text-decoration: none;
+	color: black;
+}
+/* Header Section Style End */
